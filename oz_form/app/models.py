@@ -17,7 +17,7 @@ class BaseModel(db.Model):
         onupdate=lambda: datetime.now(tz=KST), nullable=False
     )
 
-class AgeStatus(Enum):
+class AgeStatus(Enum):#이넘을 이용해 기본 값 설정
     teen = "teen"
     twenty = "twenty"
     thirty = "thirty"
@@ -37,8 +37,8 @@ class ImageStatus(Enum):
 
 class User(BaseModel):
     __tablename__ = "users"
-    name = db.Column(db.String(10), nullable=False)
-    age = db.Column(db.Enum(AgeStatus), nullable=False)
+    name = db.Column(db.String(10), nullable=False) #컬럼 값은 이넘의 기본값들, 컬럼 입력시 아무것도 없으면 기본 값으호 들어감.
+    age = db.Column(db.Enum(AgeStatus), nullable=False) #입력을 안해줬으니 False
     gender = db.Column(db.Enum(GenderStatus), nullable=False)
     email = db.Column(db.String(120), unique=True, nullable=False)
 
