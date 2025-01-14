@@ -8,33 +8,17 @@ answer_blp = Blueprint('Answer', 'answer', url_prefix='/answer')
 
 @answer_blp.route('/')
 class AnswerList(MethodView):
-    # 선택지 저장
-    def post(self):
-        # 세션에서 사용자 정보 확인
-        if 'username' not in session:
-            return jsonify({"error": "User must be logged in to save an answer"}), 401
-        
-        user_id = User.query.filter_by(username=session['username']).first().id
+    # 모든 답변 조회 - 사용자들이 어떤 답변들을 했는지 통계적으로 알기 위함 
+    def get(self):
+        datas =Answer.query.all()
+        answer_data = [data.to_dict() for data in datas]
+        return jsonify(answer_data)
 
-        data = request.json
-        
-        # 필수 데이터 확인
-        if not data.get("choice_id") or not data.get("user_id"):
-            return jsonify({"error": "choice_id and user_id are required"}), 400
-
-        # 선택지와 사용자 확인
-        choice = Choices.query.get(data["choice_id"])
-        user = User.query.get(data["user_id"])
-
-        if not choice:
-            return jsonify({"error": f"Choice with ID {data['choice_id']} not found"}), 404
-
-        if not user:
-            return jsonify({"error": f"User with ID {data['user_id']} not found"}), 404
-
-        # 새로운 답변 저장
-        new_answer = Answer(choice_id=data["choice_id"], user_id=data["user_id"])
-        db.session.add(new_answer)
-        db.session.commit()
-
-        return jsonify({"message": "Answer saved successfully"}), 201
+@answer_blp.route('/<int:choice_id>/<int:user_id>')
+    # 특정 답변 조회
+class AnswerGet(MethodView):
+    def get(self, user_id, choice_id):
+        answers = Answer.query.filter_by(user_id=user_id,choice_id=choice_id).all()
+        if not answers:
+            return{"massage":"No found data"}
+        return [answer.to_dict() for answer in answers]
