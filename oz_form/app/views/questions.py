@@ -57,7 +57,7 @@ class QuestionResource(MethodView):
         db.session.commit()
         return jsonify({"message": "Question updated successfully"}), 200
     
-    # 특정 이미지 삭제
+    # 특정 질문 삭제
     def delete(self, question_id):
         question=Question.query.get(question_id)
         if not question:
