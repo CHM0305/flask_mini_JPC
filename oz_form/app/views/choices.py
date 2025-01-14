@@ -10,21 +10,13 @@ choice_blp = Blueprint('Choices', 'choice', url_prefix='/choices')
 class ChoicesList(MethodView):
     # 선택지 조회
     def get(self):
-        choices = Choices.query.all() or []
-        return jsonify([{
-            "id": choice.id,
-            "content": choice.content,
-            "is_active": choice.is_active,
-            "sqe": choice.sqe,
-            "question_id": choice.question_id,
-            "created_at": choice.created_at.isoformat(),
-            "updated_at": choice.updated_at.isoformat()
-        } for choice in choices]), 200
-
+        data = Choices.query.all()
+        choice_data=[choice.to_dict() for choice in data]
+        return jsonify(choice_data)
+    
     # 선택지 생성
     def post(self):
         data = request.json
-
         # 필수 데이터 확인
         if not data.get('content') or not data.get('question_id'):
             return jsonify({"error": "content and question_id are required"}), 400
@@ -41,29 +33,10 @@ class ChoicesList(MethodView):
         return jsonify({"message": "Choice created successfully"}), 201
 
 
-@choice_blp.route('/answers', methods=['POST'])
-def create_answer():
-    data = request.json
-    choice_id = data.get('choice_id')
-    user_id = data.get('user_id')
+@choice_blp.route('/<int:questions_id>') # FK
+class ChoicesRource(MethodView):
+    #특정 선택지 조회
+    def get(self,questions_id):
+        choices = Choices.query.get_or_404(questions_id)
+        return jsonify([choice.to_dict() for choice in choices])
 
-    # 필수 데이터 확인
-    if not choice_id or not user_id:
-        return jsonify({"error": "choice_id and user_id are required"}), 400
-
-    # 선택지와 사용자 유효성 확인
-    choice = Choices.query.get(choice_id)
-    user = User.query.get(user_id)
-
-    if not choice:
-        return jsonify({"error": f"Choice with ID {choice_id} not found"}), 404
-
-    if not user:
-        return jsonify({"error": f"User with ID {user_id} not found"}), 404
-
-    # 새로운 답변 생성
-    new_answer = Answer(choice_id=choice_id, user_id=user_id)
-    db.session.add(new_answer)
-    db.session.commit()
-
-    return jsonify({"message": "Answer created successfully"}), 201
