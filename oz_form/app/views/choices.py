@@ -3,7 +3,7 @@ from flask.views import MethodView
 from flask_smorest import Blueprint
 from config import db
 from app.models import Choices, Answer, User
-
+#퀘스쳔 모듈
 choice_blp = Blueprint('Choices', 'choice', url_prefix='/choices')
 
 @choice_blp.route('/')

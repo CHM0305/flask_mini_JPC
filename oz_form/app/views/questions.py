@@ -3,7 +3,7 @@ from flask.views import MethodView
 from flask_smorest import Blueprint
 from config import db
 from app.models import Question
-
+#이미지 모듈 불러오기
 question_blp = Blueprint('Questions', 'question', url_prefix='/question')
 
 @question_blp.route('/')
