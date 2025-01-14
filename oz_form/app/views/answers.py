@@ -2,7 +2,7 @@ from flask import request, jsonify, session
 from flask.views import MethodView
 from flask_smorest import Blueprint
 from config import db
-from app.models import Choices, Answer, User
+from app.models import Answer
 
 answer_blp = Blueprint('Answer', 'answer', url_prefix='/answer')
 
@@ -14,7 +14,7 @@ class AnswerList(MethodView):
         answer_data = [data.to_dict() for data in datas]
         return jsonify(answer_data)
 
-@answer_blp.route('/<int:choice_id>/<int:user_id>')
+@answer_blp.route('/<int:user_id>/<int:choice_id>')
     # 특정 답변 조회
 class AnswerGet(MethodView):
     def get(self, user_id, choice_id):
@@ -22,3 +22,4 @@ class AnswerGet(MethodView):
         if not answers:
             return{"massage":"No found data"}
         return [answer.to_dict() for answer in answers]
+    
