@@ -4,7 +4,7 @@ from flask_smorest import Blueprint
 from config import db
 from app.models import Question
 
-question_blp = Blueprint('Questions', 'question', url_prefix='/question')
+question_blp = Blueprint('Questions', 'question',description="Operations on Question", url_prefix='/question')
 
 @question_blp.route('/')
 

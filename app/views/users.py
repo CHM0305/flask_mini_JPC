@@ -4,7 +4,7 @@ from flask_smorest import Blueprint
 from config import db
 from app.models import User
 
-user_blp = Blueprint('users', 'users', url_prefix='/users', description='Operations on users')
+user_blp = Blueprint('users', 'users',description='Operations on users', url_prefix='/users')
 #아이디 전체 조회
 @user_blp.route('/')
 class UserList(MethodView):
@@ -54,14 +54,15 @@ class SingUpUser(MethodView):
 
         # 새로운 사용자 생성
         new_user = User(
-            name=user_data.get("name"),
-            age=user_data.get("age"),
-            email=user_data.get("email"),
-            gender=user_data.get("gender")
+            name=user_data.get["name"],
+            age=user_data.get["age"],
+            email=user_data.get["email"],
+            gender=user_data.get["gender"]
         )
         #뉴 사용자 이름과, 원래 있던 사용자의 이름이 같으면 오류를
-        if new_user.get("name")==user_data.get("name"):
-            return jsonify({"msg":"이미 존재하는 계정입니다."}),404
+        existing_user = User.query.filter_by(email=new_user.email).first()
+        if existing_user:
+            return jsonify({"message": "이미 존재하는 계정 입니다."}), 400
     
         db.session.add(new_user)
         db.session.commit()
