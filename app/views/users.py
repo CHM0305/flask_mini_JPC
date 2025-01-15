@@ -17,10 +17,10 @@ class UserList(MethodView):
         user_data = request.json
         # 새로운 사용자 생성
         new_user = User(
-            name=user_data.get["name"],
-            age=user_data.get["age"],
-            email=user_data.get["email"],
-            gender=user_data.get["gender"]
+            name=user_data["name"],
+            age=user_data["age"],
+            email=user_data["email"],
+            gender=user_data["gender"]
         )
         #뉴 사용자 이름과, 원래 있던 사용자의 이름이 같으면 오류를
         existing_user = User.query.filter_by(email=new_user.email).first()
