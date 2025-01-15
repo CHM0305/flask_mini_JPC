@@ -13,37 +13,17 @@ image_blp = Blueprint(
 class ImageList(MethodView):
     # 전체 이미지 조회
     def get(self):
-        """
-        Get a list of all images.
-        """
-        images = Image.query.all() or []
-        return jsonify(
-            [
-                {
-                    "id": image.id,
-                    "url": image.url,
-                    "type": image.type.value
-                    if hasattr(image.type, "value")
-                    else image.type,
-                    "created_at": image.created_at.isoformat(),
-                    "updated_at": image.updated_at.isoformat(),
-                }
-                for image in images
-            ]
-        ), 200
+        images = Image.query.all()
+        image_data=[image.to_dict() for image in images]
+        return jsonify(image_data)
 
     # 새로운 이미지 생성
     def post(self):
-        """
-        Create a new image.
-        """
-        data = request.json
-
-        # 필수 데이터 확인
-        if not data.get("url") or not data.get("type"):
+        image_data = request.json
+        if not image_data.get("url") or not image_data.get("type"):
             return jsonify({"error": "The 'url' and 'type' fields are required"}), 400
 
-        new_image = Image(url=data["url"], type=data["type"])
+        new_image = Image(url=image_data["url"], type=image_data["type"])
         db.session.add(new_image)
         db.session.commit()
 
@@ -54,30 +34,14 @@ class ImageList(MethodView):
 class ImageResource(MethodView):
     # 특정 이미지 상세 조회
     def get(self, image_id):
-        """
-        Get details of a specific image by ID.
-        """
-        image = Image.query.get(image_id)
+        image = Image.query.get_or_404(image_id)
         if not image:
             return jsonify({"error": f"Image with ID {image_id} not found"}), 404
 
-        return jsonify(
-            {
-                "id": image.id,
-                "url": image.url,
-                "type": image.type.value
-                if hasattr(image.type, "value")
-                else image.type,
-                "created_at": image.created_at.isoformat(),
-                "updated_at": image.updated_at.isoformat(),
-            }
-        )
+        return jsonify(image.to_dict()),200
 
     # 특정 이미지 수정
     def put(self, image_id):
-        """
-        Update details of a specific image by ID.
-        """
         image = Image.query.get(image_id)
         if not image:
             return jsonify({"error": f"Image with ID {image_id} not found"}), 404
@@ -90,9 +54,6 @@ class ImageResource(MethodView):
 
     # 특정 이미지 삭제
     def delete(self, image_id):
-        """
-        Delete a specific image by ID.
-        """
         image = Image.query.get(image_id)
         if not image:
             return jsonify({"error": f"Image with ID {image_id} not found"}), 404
@@ -104,3 +65,5 @@ class ImageResource(MethodView):
 =======
         return jsonify({"message": "Image deleted successfully"}), 204
 >>>>>>> d9031b5f32baf3354385d65704abf2ae35567a00
+
+#이미지 수정 조회/ 특정 이미지 수정 조회 삭제 완료
