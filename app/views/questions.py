@@ -31,79 +31,47 @@ class QuestionList(MethodView):
         db.session.commit()
         return jsonify({"message": "Question created successfully"}), 201
 
+
+#특정 질문 조회 수정 삭제
+@question_blp.route('/<int:question_id>')
+class QuestionResource(MethodView):
+    
+    #특정 질문 조회
+    def get(self, question_id):
+        question=Question.query.get_or_404(question_id)
+        return jsonify(question.to_dict()),200
+    
+    #특정 질문 수정
+    def put(self, question_id):
+        question=Question.query.get(question_id)
+        if not question:
+            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
+        
+        data=request.json
+        question.title=data.get["title"],
+        question.is_active=data.get["is_active", True],
+        question.sqe=data.get["sqe"],
+        question.image_id=data.get["image_id"] 
+        db.session.commit()
+        return jsonify({"message": "Question updated successfully"}), 200
+    
+    # 특정 질문 삭제
+    def delete(self, question_id):
+        question=Question.query.get(question_id)
+        if not question:
+            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
+
+        db.session.delete(question)
+        db.session.commit()
+        return jsonify({"message": "Question deleted successfully"}), 204
+
+
+
 # 질문 개수 확인
 @question_blp.route('/count')
 class QuestionCount(MethodView):   
     def get(self):
         questions = Question.query.all()
         return jsonify({"total": len(questions)}) 
-
-#특정 질문 조회 수정 삭제
-@question_blp.route('/<int:question_id>')
-class QuestionResource(MethodView):
-    
-    #특정 질문 조회
-    def get(self, question_id):
-        question=Question.query.get_or_404(question_id)
-        return jsonify(question.to_dict()),200
-    
-    #특정 질문 수정
-    def put(self, question_id):
-        question=Question.query.get(question_id)
-        if not question:
-            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
-        
-        data=request.json
-        question.title=data.get["title"],
-        question.is_active=data.get["is_active", True],
-        question.sqe=data.get["sqe"],
-        question.image_id=data.get["image_id"] 
-        db.session.commit()
-        return jsonify({"message": "Question updated successfully"}), 200
-    
-    # 특정 질문 삭제
-    def delete(self, question_id):
-        question=Question.query.get(question_id)
-        if not question:
-            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
-
-        db.session.delete(question)
-        db.session.commit()
-        return jsonify({"message": "Question deleted successfully"}), 204
-
-
-
-#특정 질문 조회 수정 삭제
-@question_blp.route('/<int:question_id>')
-class QuestionResource(MethodView):
-    
-    #특정 질문 조회
-    def get(self, question_id):
-        question=Question.query.get_or_404(question_id)
-        return jsonify(question.to_dict()),200
-    
-    #특정 질문 수정
-    def put(self, question_id):
-        question=Question.query.get(question_id)
-        if not question:
-            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
-        
-        data=request.json
-        question.title=data.get["title"],
-        question.is_active=data.get["is_active", True],
-        question.sqe=data.get["sqe"],
-        question.image_id=data.get["image_id"] 
-        db.session.commit()
-        return jsonify({"message": "Question updated successfully"}), 200
-    
-    # 특정 질문 삭제
-    def delete(self, question_id):
-        question=Question.query.get(question_id)
-        if not question:
-            return jsonify({"error": f"Question with ID {question_id} not found"}), 404
-
-        db.session.delete(question)
-        db.session.commit()
-        return jsonify({"message": "Question deleted successfully"}), 204
 
 
