@@ -15,11 +15,6 @@ class UserList(MethodView):
     
     def post(self):
         user_data = request.json
-
-        # 필수 데이터 확인
-        if not user_data.get("name") or not user_data.get("email"):
-            return jsonify({"error": "name, email are required"}), 400
-
         # 새로운 사용자 생성
         new_user = User(
             name=user_data.get["name"],
