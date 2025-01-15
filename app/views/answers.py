@@ -4,7 +4,7 @@ from flask_smorest import Blueprint
 from config import db
 from app.models import Answer
 
-answer_blp = Blueprint('Answer', 'answer', url_prefix='/submit')
+answer_blp = Blueprint('Answer', 'answer', description="Operations on answer", url_prefix='/submit')
 
 @answer_blp.route('/')
 class AnswerList(MethodView):
