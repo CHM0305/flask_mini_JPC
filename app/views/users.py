@@ -5,7 +5,7 @@ from config import db
 from app.models import User
 
 user_blp = Blueprint('users', 'users', url_prefix='/users', description='Operations on users')
-
+#아이디 전체 조회
 @user_blp.route('/')
 class UserList(MethodView):
     def get(self):
@@ -13,24 +13,6 @@ class UserList(MethodView):
         users_data = [user.to_dict() for user in data]
         return jsonify(users_data)
 
-    def post(self):
-        user_data = request.json
-
-        # 필수 데이터 확인
-        if not user_data.get("name") or not user_data.get("email"):
-            return jsonify({"error": "name, email are required"}), 400
-
-        # 새로운 사용자 생성
-        new_user = User(
-            name=user_data.get("name"),
-            age=user_data.get("age"),
-            email=user_data.get("email"),
-            gender=user_data.get("gender")
-        )
-        
-        db.session.add(new_user)
-        db.session.commit()
-        return jsonify({"message": "User created successfully"}), 201
 
 @user_blp.route('/<int:user_id>')
 class UserResource(MethodView):
@@ -60,6 +42,34 @@ class UserResource(MethodView):
         db.session.delete(user)
         db.session.commit()
         return jsonify({"message": "User deleted successfully"}), 204
+
+@user_blp.route('/signup')
+class SingUpUser(MethodView):
+    def post(self):
+        user_data = request.json
+
+        # 필수 데이터 확인
+        if not user_data.get("name") or not user_data.get("email"):
+            return jsonify({"error": "name, email are required"}), 400
+
+        # 새로운 사용자 생성
+        new_user = User(
+            name=user_data.get("name"),
+            age=user_data.get("age"),
+            email=user_data.get("email"),
+            gender=user_data.get("gender")
+        )
+        #뉴 사용자 이름과, 원래 있던 사용자의 이름이 같으면 오류를
+        if new_user.get("name")==user_data.get("name"):
+            return jsonify({"msg":"이미 존재하는 계정입니다."}),404
+    
+        db.session.add(new_user)
+        db.session.commit()
+        # 회원 가입 축하 메세지
+        return jsonify({"msg" :"User님 회원가입을 축하합니다.",
+                        "user_id" : new_user.id}), 201
+
+
 
 #아이디 생성, 조회 완료
 #특정 아이디 조회 수정 삭제 완료
