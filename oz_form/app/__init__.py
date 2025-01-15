@@ -2,7 +2,7 @@ from config import db
 from flask import Flask
 from flask_migrate import Migrate
 
-import app.models
+
 
 migrate = Migrate()
 
@@ -18,5 +18,16 @@ def create_app():
     migrate.init_app(application, db)
 
     # 블루 프린트 등록
+    from app.views.answers import answer_blp
+    from app.views.choices import choices_blp
+    from app.views.images import image_blp
+    from app.views.questions import question_blp
+    from app.views.users import user_blp
+
+    application.register_blueprint(answer_blp)
+    application.register_blueprint(choices_blp)
+    application.register_blueprint(image_blp)
+    application.register_blueprint(question_blp)
+    application.register_blueprint(user_blp)
 
     return application
