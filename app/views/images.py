@@ -6,7 +6,7 @@ from app.models import Image
 
 # 블루프린트 설정
 image_blp = Blueprint(
-    "Images", "images", description="Operations on images", url_prefix="/images"
+    "Image", "image", description="Operations on image", url_prefix="/image"
 )
 
 @image_blp.route("/")
@@ -63,3 +63,13 @@ class ImageResource(MethodView):
         return jsonify({"message": "Image deleted successfully"}), 204
 
 #이미지 수정 조회/ 특정 이미지 수정 조회 삭제 완료
+@image_blp.route("/main")
+class ImageMain(MethodView):
+    def get(self):
+        main_img = Image.query.filter_by(type="main").first()
+
+        if main_img is None:
+            return jsonify({"msg":"No main image found"}), 404
+
+        return jsonify({"msg": main_img.url }),200
+                
