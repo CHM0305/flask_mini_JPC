@@ -1,0 +1,2215 @@
+[2025-01-15 11:07:22 +0000] [37794] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 11:07:22 +0000] [37794] [INFO] Listening at: http://127.0.0.1:8000 (37794)
+[2025-01-15 11:07:22 +0000] [37794] [INFO] Using worker: sync
+[2025-01-15 11:07:22 +0000] [37796] [INFO] Booting worker with pid: 37796
+[2025-01-15 11:07:22 +0000] [37799] [INFO] Booting worker with pid: 37799
+[2025-01-15 11:07:22 +0000] [37800] [INFO] Booting worker with pid: 37800
+[2025-01-15 11:07:22 +0000] [37801] [INFO] Booting worker with pid: 37801
+[2025-01-15 11:12:13 +0000] [37794] [INFO] Handling signal: term
+[2025-01-15 11:12:13 +0000] [37796] [INFO] Worker exiting (pid: 37796)
+[2025-01-15 11:12:13 +0000] [37799] [INFO] Worker exiting (pid: 37799)
+[2025-01-15 11:12:13 +0000] [37800] [INFO] Worker exiting (pid: 37800)
+[2025-01-15 11:12:13 +0000] [37801] [INFO] Worker exiting (pid: 37801)
+[2025-01-15 11:12:13 +0000] [37794] [ERROR] Worker (pid:37796) was sent SIGTERM!
+[2025-01-15 11:12:13 +0000] [37794] [ERROR] Worker (pid:37799) was sent SIGTERM!
+[2025-01-15 11:12:13 +0000] [37794] [ERROR] Worker (pid:37800) was sent SIGTERM!
+[2025-01-15 11:12:13 +0000] [37794] [INFO] Shutting down: Master
+[2025-01-15 11:12:21 +0000] [38088] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 11:12:21 +0000] [38088] [INFO] Listening at: http://127.0.0.1:8000 (38088)
+[2025-01-15 11:12:21 +0000] [38088] [INFO] Using worker: sync
+[2025-01-15 11:12:21 +0000] [38090] [INFO] Booting worker with pid: 38090
+[2025-01-15 11:12:21 +0000] [38093] [INFO] Booting worker with pid: 38093
+[2025-01-15 11:12:21 +0000] [38095] [INFO] Booting worker with pid: 38095
+[2025-01-15 11:12:21 +0000] [38094] [INFO] Booting worker with pid: 38094
+[2025-01-15 11:19:44 +0000] [38088] [INFO] Handling signal: term
+[2025-01-15 11:19:44 +0000] [38090] [INFO] Worker exiting (pid: 38090)
+[2025-01-15 11:19:44 +0000] [38093] [INFO] Worker exiting (pid: 38093)
+[2025-01-15 11:19:44 +0000] [38094] [INFO] Worker exiting (pid: 38094)
+[2025-01-15 11:19:44 +0000] [38095] [INFO] Worker exiting (pid: 38095)
+[2025-01-15 11:19:44 +0000] [38088] [ERROR] Worker (pid:38090) was sent SIGTERM!
+[2025-01-15 11:19:45 +0000] [38088] [ERROR] Worker (pid:38093) was sent SIGTERM!
+[2025-01-15 11:19:45 +0000] [38088] [INFO] Shutting down: Master
+[2025-01-15 11:20:03 +0000] [38403] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 11:20:03 +0000] [38403] [INFO] Listening at: http://127.0.0.1:8000 (38403)
+[2025-01-15 11:20:03 +0000] [38403] [INFO] Using worker: sync
+[2025-01-15 11:20:03 +0000] [38405] [INFO] Booting worker with pid: 38405
+[2025-01-15 11:20:03 +0000] [38409] [INFO] Booting worker with pid: 38409
+[2025-01-15 11:20:03 +0000] [38410] [INFO] Booting worker with pid: 38410
+[2025-01-15 11:20:03 +0000] [38411] [INFO] Booting worker with pid: 38411
+[2025-01-15 11:30:20 +0000] [38403] [INFO] Handling signal: term
+[2025-01-15 11:30:20 +0000] [38405] [INFO] Worker exiting (pid: 38405)
+[2025-01-15 11:30:20 +0000] [38409] [INFO] Worker exiting (pid: 38409)
+[2025-01-15 11:30:20 +0000] [38410] [INFO] Worker exiting (pid: 38410)
+[2025-01-15 11:30:20 +0000] [38411] [INFO] Worker exiting (pid: 38411)
+[2025-01-15 11:30:21 +0000] [38403] [ERROR] Worker (pid:38405) was sent SIGTERM!
+[2025-01-15 11:30:21 +0000] [38403] [ERROR] Worker (pid:38409) was sent SIGTERM!
+[2025-01-15 11:30:21 +0000] [38403] [INFO] Shutting down: Master
+[2025-01-15 12:56:40 +0000] [41477] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 12:56:40 +0000] [41477] [INFO] Listening at: http://127.0.0.1:8000 (41477)
+[2025-01-15 12:56:40 +0000] [41477] [INFO] Using worker: sync
+[2025-01-15 12:56:40 +0000] [41479] [INFO] Booting worker with pid: 41479
+[2025-01-15 12:56:40 +0000] [41480] [INFO] Booting worker with pid: 41480
+[2025-01-15 12:56:40 +0000] [41483] [INFO] Booting worker with pid: 41483
+[2025-01-15 12:56:40 +0000] [41484] [INFO] Booting worker with pid: 41484
+[2025-01-15 12:56:41 +0000] [41479] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:56:42 +0000] [41479] [INFO] Worker exiting (pid: 41479)
+[2025-01-15 12:56:42 +0000] [41480] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:56:42 +0000] [41480] [INFO] Worker exiting (pid: 41480)
+[2025-01-15 12:56:42 +0000] [41483] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:56:42 +0000] [41483] [INFO] Worker exiting (pid: 41483)
+[2025-01-15 12:56:42 +0000] [41484] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:56:42 +0000] [41484] [INFO] Worker exiting (pid: 41484)
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Worker (pid:41479) exited with code 3
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Worker (pid:41484) was sent SIGTERM!
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Worker (pid:41480) was sent SIGTERM!
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Worker (pid:41483) was sent SIGTERM!
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Shutting down: Master
+[2025-01-15 12:56:42 +0000] [41477] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 12:58:47 +0000] [41573] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 12:58:47 +0000] [41573] [INFO] Listening at: http://127.0.0.1:8000 (41573)
+[2025-01-15 12:58:47 +0000] [41573] [INFO] Using worker: sync
+[2025-01-15 12:58:47 +0000] [41575] [INFO] Booting worker with pid: 41575
+[2025-01-15 12:58:47 +0000] [41577] [INFO] Booting worker with pid: 41577
+[2025-01-15 12:58:47 +0000] [41579] [INFO] Booting worker with pid: 41579
+[2025-01-15 12:58:47 +0000] [41580] [INFO] Booting worker with pid: 41580
+[2025-01-15 12:58:49 +0000] [41575] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:58:49 +0000] [41575] [INFO] Worker exiting (pid: 41575)
+[2025-01-15 12:58:49 +0000] [41577] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:58:49 +0000] [41577] [INFO] Worker exiting (pid: 41577)
+[2025-01-15 12:58:49 +0000] [41580] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:58:49 +0000] [41580] [INFO] Worker exiting (pid: 41580)
+[2025-01-15 12:58:49 +0000] [41579] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 12:58:49 +0000] [41579] [INFO] Worker exiting (pid: 41579)
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Worker (pid:41575) exited with code 3
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Worker (pid:41579) was sent SIGTERM!
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Worker (pid:41580) was sent SIGTERM!
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Worker (pid:41577) was sent SIGTERM!
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Shutting down: Master
+[2025-01-15 12:58:50 +0000] [41573] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 13:01:51 +0000] [41801] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 13:01:51 +0000] [41801] [INFO] Listening at: http://127.0.0.1:8000 (41801)
+[2025-01-15 13:01:51 +0000] [41801] [INFO] Using worker: sync
+[2025-01-15 13:01:51 +0000] [41802] [INFO] Booting worker with pid: 41802
+[2025-01-15 13:01:51 +0000] [41805] [INFO] Booting worker with pid: 41805
+[2025-01-15 13:01:51 +0000] [41806] [INFO] Booting worker with pid: 41806
+[2025-01-15 13:01:51 +0000] [41807] [INFO] Booting worker with pid: 41807
+[2025-01-15 13:01:52 +0000] [41802] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:01:52 +0000] [41802] [INFO] Worker exiting (pid: 41802)
+[2025-01-15 13:01:52 +0000] [41805] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:01:52 +0000] [41805] [INFO] Worker exiting (pid: 41805)
+[2025-01-15 13:01:53 +0000] [41806] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:01:53 +0000] [41806] [INFO] Worker exiting (pid: 41806)
+[2025-01-15 13:01:53 +0000] [41807] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 42, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:01:53 +0000] [41807] [INFO] Worker exiting (pid: 41807)
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Worker (pid:41802) exited with code 3
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Worker (pid:41806) was sent SIGTERM!
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Worker (pid:41807) was sent SIGTERM!
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Worker (pid:41805) was sent SIGTERM!
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Shutting down: Master
+[2025-01-15 13:01:53 +0000] [41801] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 13:19:41 +0000] [42404] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 13:19:41 +0000] [42404] [INFO] Listening at: http://127.0.0.1:8000 (42404)
+[2025-01-15 13:19:41 +0000] [42404] [INFO] Using worker: sync
+[2025-01-15 13:19:41 +0000] [42406] [INFO] Booting worker with pid: 42406
+[2025-01-15 13:19:41 +0000] [42409] [INFO] Booting worker with pid: 42409
+[2025-01-15 13:19:41 +0000] [42410] [INFO] Booting worker with pid: 42410
+[2025-01-15 13:19:42 +0000] [42411] [INFO] Booting worker with pid: 42411
+[2025-01-15 13:19:43 +0000] [42406] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:19:43 +0000] [42406] [INFO] Worker exiting (pid: 42406)
+[2025-01-15 13:19:43 +0000] [42409] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:19:43 +0000] [42409] [INFO] Worker exiting (pid: 42409)
+[2025-01-15 13:19:43 +0000] [42410] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:19:43 +0000] [42410] [INFO] Worker exiting (pid: 42410)
+[2025-01-15 13:19:43 +0000] [42411] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:19:43 +0000] [42411] [INFO] Worker exiting (pid: 42411)
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Worker (pid:42406) exited with code 3
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Worker (pid:42409) was sent SIGTERM!
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Worker (pid:42410) was sent SIGTERM!
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Worker (pid:42411) was sent SIGTERM!
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Shutting down: Master
+[2025-01-15 13:19:44 +0000] [42404] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 13:22:19 +0000] [42557] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 13:22:19 +0000] [42557] [INFO] Listening at: http://127.0.0.1:8000 (42557)
+[2025-01-15 13:22:19 +0000] [42557] [INFO] Using worker: sync
+[2025-01-15 13:22:19 +0000] [42559] [INFO] Booting worker with pid: 42559
+[2025-01-15 13:22:19 +0000] [42560] [INFO] Booting worker with pid: 42560
+[2025-01-15 13:22:19 +0000] [42561] [INFO] Booting worker with pid: 42561
+[2025-01-15 13:22:19 +0000] [42564] [INFO] Booting worker with pid: 42564
+[2025-01-15 13:22:21 +0000] [42559] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:22:21 +0000] [42559] [INFO] Worker exiting (pid: 42559)
+[2025-01-15 13:22:21 +0000] [42560] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:22:21 +0000] [42560] [INFO] Worker exiting (pid: 42560)
+[2025-01-15 13:22:21 +0000] [42561] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:22:21 +0000] [42561] [INFO] Worker exiting (pid: 42561)
+[2025-01-15 13:22:21 +0000] [42564] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:22:21 +0000] [42564] [INFO] Worker exiting (pid: 42564)
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Worker (pid:42559) exited with code 3
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Worker (pid:42564) was sent SIGTERM!
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Worker (pid:42560) was sent SIGTERM!
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Worker (pid:42561) was sent SIGTERM!
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Shutting down: Master
+[2025-01-15 13:22:21 +0000] [42557] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 13:50:33 +0000] [43466] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 13:50:33 +0000] [43466] [INFO] Listening at: http://127.0.0.1:8000 (43466)
+[2025-01-15 13:50:33 +0000] [43466] [INFO] Using worker: sync
+[2025-01-15 13:50:33 +0000] [43468] [INFO] Booting worker with pid: 43468
+[2025-01-15 13:50:33 +0000] [43469] [INFO] Booting worker with pid: 43469
+[2025-01-15 13:50:33 +0000] [43472] [INFO] Booting worker with pid: 43472
+[2025-01-15 13:50:33 +0000] [43473] [INFO] Booting worker with pid: 43473
+[2025-01-15 13:50:35 +0000] [43468] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:50:35 +0000] [43468] [INFO] Worker exiting (pid: 43468)
+[2025-01-15 13:50:35 +0000] [43469] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:50:35 +0000] [43469] [INFO] Worker exiting (pid: 43469)
+[2025-01-15 13:50:35 +0000] [43472] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:50:35 +0000] [43472] [INFO] Worker exiting (pid: 43472)
+[2025-01-15 13:50:35 +0000] [43473] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 13:50:35 +0000] [43473] [INFO] Worker exiting (pid: 43473)
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Worker (pid:43468) exited with code 3
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Worker (pid:43472) was sent SIGTERM!
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Worker (pid:43469) was sent SIGTERM!
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Worker (pid:43473) was sent SIGTERM!
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Shutting down: Master
+[2025-01-15 13:50:35 +0000] [43466] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 14:02:08 +0000] [43959] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 14:02:08 +0000] [43959] [INFO] Listening at: http://127.0.0.1:8000 (43959)
+[2025-01-15 14:02:08 +0000] [43959] [INFO] Using worker: sync
+[2025-01-15 14:02:08 +0000] [43961] [INFO] Booting worker with pid: 43961
+[2025-01-15 14:02:08 +0000] [43962] [INFO] Booting worker with pid: 43962
+[2025-01-15 14:02:08 +0000] [43965] [INFO] Booting worker with pid: 43965
+[2025-01-15 14:02:08 +0000] [43966] [INFO] Booting worker with pid: 43966
+[2025-01-15 14:02:10 +0000] [43961] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:02:10 +0000] [43961] [INFO] Worker exiting (pid: 43961)
+[2025-01-15 14:02:10 +0000] [43962] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:02:10 +0000] [43962] [INFO] Worker exiting (pid: 43962)
+[2025-01-15 14:02:10 +0000] [43965] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:02:10 +0000] [43965] [INFO] Worker exiting (pid: 43965)
+[2025-01-15 14:02:10 +0000] [43966] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:02:10 +0000] [43966] [INFO] Worker exiting (pid: 43966)
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Worker (pid:43961) exited with code 3
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Worker (pid:43966) was sent SIGTERM!
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Worker (pid:43962) was sent SIGTERM!
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Worker (pid:43965) was sent SIGTERM!
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Shutting down: Master
+[2025-01-15 14:02:10 +0000] [43959] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 14:07:08 +0000] [44178] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 14:07:08 +0000] [44178] [INFO] Listening at: http://127.0.0.1:8000 (44178)
+[2025-01-15 14:07:08 +0000] [44178] [INFO] Using worker: sync
+[2025-01-15 14:07:08 +0000] [44180] [INFO] Booting worker with pid: 44180
+[2025-01-15 14:07:08 +0000] [44181] [INFO] Booting worker with pid: 44181
+[2025-01-15 14:07:08 +0000] [44183] [INFO] Booting worker with pid: 44183
+[2025-01-15 14:07:08 +0000] [44185] [INFO] Booting worker with pid: 44185
+[2025-01-15 14:07:10 +0000] [44181] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:07:10 +0000] [44181] [INFO] Worker exiting (pid: 44181)
+[2025-01-15 14:07:10 +0000] [44180] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:07:10 +0000] [44180] [INFO] Worker exiting (pid: 44180)
+[2025-01-15 14:07:10 +0000] [44183] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:07:10 +0000] [44183] [INFO] Worker exiting (pid: 44183)
+[2025-01-15 14:07:10 +0000] [44185] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:07:10 +0000] [44185] [INFO] Worker exiting (pid: 44185)
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Worker (pid:44181) exited with code 3
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Worker (pid:44180) was sent SIGTERM!
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Worker (pid:44185) was sent SIGTERM!
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Worker (pid:44183) was sent SIGTERM!
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Shutting down: Master
+[2025-01-15 14:07:10 +0000] [44178] [ERROR] Reason: Worker failed to boot.
+[2025-01-15 14:27:22 +0000] [44889] [INFO] Starting gunicorn 23.0.0
+[2025-01-15 14:27:22 +0000] [44889] [INFO] Listening at: http://127.0.0.1:8000 (44889)
+[2025-01-15 14:27:22 +0000] [44889] [INFO] Using worker: sync
+[2025-01-15 14:27:22 +0000] [44891] [INFO] Booting worker with pid: 44891
+[2025-01-15 14:27:23 +0000] [44892] [INFO] Booting worker with pid: 44892
+[2025-01-15 14:27:23 +0000] [44895] [INFO] Booting worker with pid: 44895
+[2025-01-15 14:27:23 +0000] [44896] [INFO] Booting worker with pid: 44896
+[2025-01-15 14:27:24 +0000] [44892] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:27:24 +0000] [44892] [INFO] Worker exiting (pid: 44892)
+[2025-01-15 14:27:24 +0000] [44891] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:27:24 +0000] [44891] [INFO] Worker exiting (pid: 44891)
+[2025-01-15 14:27:24 +0000] [44895] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:27:24 +0000] [44896] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ec2-user/flask_mini_JPC/wsgi.py", line 3, in <module>
+    app = create_app()
+          ^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/app/__init__.py", line 40, in create_app
+    api.register_blueprint(answer_blp)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask_smorest/__init__.py", line 103, in register_blueprint
+    self._app.register_blueprint(blp, **options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 335, in register
+    deferred(state)
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 434, in <lambda>
+    lambda s: s.add_url_rule(
+              ^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/blueprints.py", line 110, in add_url_rule
+    self.app.add_url_rule(
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/flask_mini_JPC/.venv/lib64/python3.12/site-packages/flask/sansio/app.py", line 650, in add_url_rule
+    rule_obj = self.url_rule_class(rule, methods=methods, **options)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Rule.__init__() got an unexpected keyword argument 'method'
+[2025-01-15 14:27:24 +0000] [44896] [INFO] Worker exiting (pid: 44896)
+[2025-01-15 14:27:24 +0000] [44895] [INFO] Worker exiting (pid: 44895)
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Worker (pid:44895) exited with code 3
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Worker (pid:44892) was sent SIGTERM!
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Worker (pid:44891) was sent SIGTERM!
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Worker (pid:44896) was sent SIGTERM!
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Shutting down: Master
+[2025-01-15 14:27:25 +0000] [44889] [ERROR] Reason: Worker failed to boot.

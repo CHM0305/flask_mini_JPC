@@ -7,7 +7,7 @@ db = SQLAlchemy()
 
 class Config:
 
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:1234@localhost/miniproject"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:NewPsword!12as3@localhost/miniproject"
 
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_POOL_SIZE = 10
