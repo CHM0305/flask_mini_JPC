@@ -23,7 +23,7 @@ class AnswerGet(MethodView):
             return{"massage":"No found data"}
         return [answer.to_dict() for answer in answers]
 
-@answer_blp.route('/',method=['POST'])
+@answer_blp.route('/',methods=['POST'])
 class AnswerPost(MethodView):
     def post(self):
         #user=User.query.get("user_id") 이런식으로 갖고 오면 전체적으로 가지고 오는 것이라 한 아이디만을 추출하기 어려움.

@@ -9,7 +9,7 @@ image_blp = Blueprint(
     "Image", "image", description="Operations on Image", url_prefix="/image"
 )
 
-@image_blp.route("/")
+@image_blp.route('/')
 class ImageList(MethodView):
     # 전체 이미지 조회
     def get(self):
@@ -30,7 +30,7 @@ class ImageList(MethodView):
         return jsonify({"message": "Image created successfully"}), 201
 
 
-@image_blp.route("/<int:image_id>")
+@image_blp.route('/<int:image_id>')
 class ImageResource(MethodView):
     # 특정 이미지 상세 조회
     def get(self, image_id):
@@ -63,7 +63,7 @@ class ImageResource(MethodView):
         return jsonify({"message": "Image deleted successfully"}), 204
 
 #이미지 수정 조회/ 특정 이미지 수정 조회 삭제 완료
-@image_blp.route("/main")
+@image_blp.route('/main')
 class ImageMain(MethodView):
     def get(self):
         main_img = Image.query.filter_by(type="main").first()

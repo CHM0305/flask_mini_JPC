@@ -4,10 +4,9 @@ from flask_smorest import Blueprint
 from config import db
 from app.models import Question
 
-question_blp = Blueprint('Questions', 'question',description="Operations on Question", url_prefix='/question')
+question_blp = Blueprint('Questions', 'question', url_prefix='/question')
 
 @question_blp.route('/')
-
 class QuestionList(MethodView):
         # 질문 조회
     def get(self):
@@ -64,7 +63,6 @@ class QuestionResource(MethodView):
         db.session.delete(question)
         db.session.commit()
         return jsonify({"message": "Question deleted successfully"}), 204
-
 
 
 # 질문 개수 확인
