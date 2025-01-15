@@ -6,7 +6,7 @@ from app.models import Image
 
 # 블루프린트 설정
 image_blp = Blueprint(
-    "Image", "image", description="Operations on image", url_prefix="/image"
+    "Image", "image", description="Operations on Image", url_prefix="/image"
 )
 
 @image_blp.route("/")
@@ -14,8 +14,8 @@ class ImageList(MethodView):
     # 전체 이미지 조회
     def get(self):
         images = Image.query.all()
-        image_data=[image.to_dict() for image in images]
-        return jsonify(image_data)
+        images_data=[image.to_dict() for image in images]
+        return jsonify(images_data)
 
     # 새로운 이미지 생성
     def post(self):
