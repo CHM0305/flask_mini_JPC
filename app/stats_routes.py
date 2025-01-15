@@ -15,10 +15,10 @@ def user_answer_rate():
             func.count(Answer.id).label('answer_count'),
             (func.count(Answer.id) * 100 / func.sum(func.count(Answer.id)).over()).label('percentage')
         ).join(Choices, Choices.id == Answer.choice_id) \
-         .join(Question, Question.id == Choices.question_id) \
-         .group_by(Question.id, Choices.id) \
-         .order_by(Question.id, Choices.id) \
-         .all()
+            .join(Question, Question.id == Choices.question_id) \
+            .group_by(Question.id, Choices.id) \
+            .order_by(Question.id, Choices.id) \
+            .all()
 
         data = [
             {
@@ -45,10 +45,10 @@ def question_answer_distribution():
             func.count(Answer.id).label('answer_count'),
             (func.count(Answer.id) * 100 / func.sum(func.count(Answer.id)).over(partition_by=Question.id)).label('percentage')
         ).join(Choices, Choices.id == Answer.choice_id) \
-         .join(Question, Question.id == Choices.question_id) \
-         .group_by(Question.id, Choices.id) \
-         .order_by(Question.id, Choices.id) \
-         .all()
+            .join(Question, Question.id == Choices.question_id) \
+            .group_by(Question.id, Choices.id) \
+            .order_by(Question.id, Choices.id) \
+            .all()
 
         data = [
             {
