@@ -27,6 +27,10 @@ def create_app():
 
     migrate.init_app(application, db)
 
+    @application.route('/')
+    def home():
+        return {"msg":"Success Connected"}
+    
     # 블루 프린트 등록
 
     from .views.answers import answer_blp
