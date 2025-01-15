@@ -27,9 +27,7 @@ def create_app():
 
     migrate.init_app(application, db)
 
-    @application.route('/')
-    def home():
-        return {"msg":"Success Connected"}
+    
     
     # 블루 프린트 등록
 
@@ -45,4 +43,8 @@ def create_app():
     api.register_blueprint(question_blp)
     api.register_blueprint(user_blp)
 
+    @application.route('/')
+    def home():
+        return {"msg":"Success Connected"}
+    
     return application
