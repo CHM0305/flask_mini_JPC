@@ -99,4 +99,8 @@ class ImageResource(MethodView):
 
         db.session.delete(image)
         db.session.commit()
+<<<<<<< HEAD
         return jsonify({"message": "Image deleted successfully"}), 204
+=======
+        return jsonify({"message": "Image deleted successfully"}), 204
+>>>>>>> d9031b5f32baf3354385d65704abf2ae35567a00

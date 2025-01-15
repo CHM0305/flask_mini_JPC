@@ -4,8 +4,13 @@ from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 
 
+
 class Config:
+<<<<<<< HEAD
     SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/flask"
+=======
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:1234@localhost/miniproject"
+>>>>>>> d9031b5f32baf3354385d65704abf2ae35567a00
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_POOL_SIZE = 10
     SQLALCHEMY_POOL_TIMEOUT = 5

@@ -18,6 +18,7 @@ def create_app():
     migrate.init_app(application, db)
 
     # 블루 프린트 등록
+<<<<<<< HEAD
     from app.views.answers import answer_blp
     from app.views.choices import choices_blp
     from app.views.images import image_blp
@@ -26,6 +27,16 @@ def create_app():
 
     application.register_blueprint(answer_blp)
     application.register_blueprint(choices_blp)
+=======
+    from .views.answers import answer_blp
+    from .views.choices import choice_blp
+    from .views.images import image_blp
+    from .views.questions import question_blp
+    from .views.users import user_blp
+
+    application.register_blueprint(answer_blp)
+    application.register_blueprint(choice_blp)
+>>>>>>> d9031b5f32baf3354385d65704abf2ae35567a00
     application.register_blueprint(image_blp)
     application.register_blueprint(question_blp)
     application.register_blueprint(user_blp)
