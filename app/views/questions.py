@@ -4,7 +4,8 @@ from flask_smorest import Blueprint
 from config import db
 from app.models import Question,Choices
 
-question_blp = Blueprint('Questions', 'question', url_prefix='/question')
+question_blp = Blueprint('Question', 'question',description="Operations on Question", url_prefix='/question')
+questions_blp = Blueprint('Questions', 'questions',description="Operations on Questions", url_prefix='/questions')
 
 @question_blp.route('/')
 class QuestionList(MethodView):
@@ -53,7 +54,7 @@ class QuestionResource(MethodView):
 #특정 질문 삭제 수정을 같이 두면 안될듯. 사이트에 전체적으로
 
 # 질문 개수 확인
-@question_blp.route('/count')
+@questions_blp.route('/count')
 class QuestionCount(MethodView):   
     def get(self):
         questions = Question.query.all()
