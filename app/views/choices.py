@@ -19,10 +19,10 @@ class ChoicesList(MethodView):
         db.session.add(new_choices)
         db.session.commit()
         return jsonify({"message": "Choices created successfully"}), 201
-#선택지 조회
-def get(self):
-    choices = Choices.query.all()
-    return jsonify ([choice.to_dict() for choice in choices])
+    #선택지 조회
+    def get(self):
+        choices = Choices.query.all()
+        return jsonify ([choice.to_dict() for choice in choices])
 
 # 선택지 가져오기
 @choices_blp.route('/<int:question_id>')
