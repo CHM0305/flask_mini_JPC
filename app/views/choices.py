@@ -31,8 +31,16 @@ class ChoiceResource(MethodView):
             #선택지에 맞는 아이디 값을 설정해줘야하니 아이디에 맞는 값이 필요함 filter_by
             #choices = Choices.query.get_or_404(question_id) <- 아이디 값에 맞는 모든 것을 불러올 수 없음.
             choices = Choices.query.filter_by(question_id=question_id).all()
-            return jsonify([choice.to_dict() for choice in choices])
-    
+            return jsonify({
+                            "choices":[
+                                {"id": choices.id, "content": "옵션 1", "is_active": choices.is_active},
+                                {"id": choices.id, "content": "옵션 2", "is_active": choices.is_active},
+                                {"id": choices.id, "content": "옵션 3", "is_active": choices.is_active},
+                                {"id": choices.id, "content": "옵션 4", "is_active": choices.is_active},
+                                {"id": choices.id, "content": "옵션 5", "is_active": choices.is_active}
+                            ]
+                        })
+                
     def delete(self, question_id):
         # 특정 질문에 해당하는 선택지 삭제
         choices = Choices.query.filter_by(question_id=question_id).all()

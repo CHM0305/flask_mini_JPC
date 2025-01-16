@@ -20,11 +20,11 @@ class UserList(MethodView):
         #뉴 사용자 이름과, 원래 있던 사용자의 이름이 같으면 오류를
         existing_user = User.query.filter_by(email=new_user.email).first()
         if existing_user:
-            return jsonify({"message": "이미 존재하는 계정 입니다."}), 400
+            return jsonify({"error": "이미 존재하는 계정 입니다."}), 400
         db.session.add(new_user)
         db.session.commit()
         # 회원 가입 축하 메세지
-        return jsonify({"msg" :"User님 회원가입을 축하합니다.",
+        return jsonify({"message" :"User님 회원가입을 축하합니다.",
                         "user_id" : new_user.id}), 201
 
     def get(self):
