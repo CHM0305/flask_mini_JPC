@@ -34,10 +34,7 @@ class ChoiceResource(MethodView):
             return jsonify({
                             "choices":[
                                 {"id": choices.id, "content": "옵션 1", "is_active": choices.is_active},
-                                {"id": choices.id, "content": "옵션 2", "is_active": choices.is_active},
-                                {"id": choices.id, "content": "옵션 3", "is_active": choices.is_active},
-                                {"id": choices.id, "content": "옵션 4", "is_active": choices.is_active},
-                                {"id": choices.id, "content": "옵션 5", "is_active": choices.is_active}
+                                {"id": choices.id, "content": "옵션 2", "is_active": choices.is_active}
                             ]
                         })
                 
