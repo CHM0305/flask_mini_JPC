@@ -8,11 +8,6 @@ user_blp = Blueprint('users', 'users',description='Operations on users', url_pre
 #아이디 전체 조회
 @user_blp.route('/')
 class UserList(MethodView):
-    def get(self):
-        data = User.query.all()
-        users_data = [user.to_dict() for user in data]
-        return jsonify(users_data)
-    
     def post(self):
         user_data = request.json
         # 새로운 사용자 생성
@@ -26,12 +21,17 @@ class UserList(MethodView):
         existing_user = User.query.filter_by(email=new_user.email).first()
         if existing_user:
             return jsonify({"message": "이미 존재하는 계정 입니다."}), 400
-    
         db.session.add(new_user)
         db.session.commit()
         # 회원 가입 축하 메세지
         return jsonify({"msg" :"User님 회원가입을 축하합니다.",
                         "user_id" : new_user.id}), 201
+
+    def get(self):
+        users = User.query.all()
+        return jsonify([user.to_dict() for user in users])
+    
+
 
 
 @user_blp.route('/<int:user_id>')
@@ -47,10 +47,10 @@ class UserResource(MethodView):
             return jsonify({"error": f"User with ID {user_id} not found"}), 404
 
         data=request.json
-        user.name=data.get["name"],
-        user.age=data.get["age"],
-        user.email=data.get["email"],
-        user.gender=data.get["gender"]
+        user.name = data.get('name', user.name)
+        user.email = data.get('email', user.email)
+        user.gender = data.get('gender', user.gender)
+        user.age = data.get('age', user.age)
         db.session.commit()
         return jsonify({"message": "User updated successfully"}), 200
 
