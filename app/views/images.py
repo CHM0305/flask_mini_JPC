@@ -71,5 +71,5 @@ class ImageMain(MethodView):
         if main_img is None:
             return jsonify({"msg":"No main image found"}), 404
 
-        return jsonify({"msg": main_img.url }),200
+        return jsonify({"image": main_img.url }),200
                 
