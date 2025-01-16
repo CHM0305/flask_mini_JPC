@@ -37,15 +37,20 @@ class QuestionResource(MethodView):
     #특정 질문 조회
     def get(self, question_id):
         question=Question.query.get_or_404(question_id)
-        return jsonify(
-        {
-        "question":{
+        return jsonify({"question":{
         "id": question.id,
         "title": question.title,
         "image": {"url":question.image.url if question.image else None},
+        "choices": [
+            {
+                "id": choice.id,
+                "content": choice.content,
+                "is_active": choice.is_active,
+                "sqe": choice.sqe
             }
-        })
-#특정 질문 삭제 수정을 같이 두면 안될듯. 사이트에 전체적으로 오류날듟?
+            for choice in Choices.query.filter_by(question_id=question.id).all()
+        ]}}),200
+#특정 질문 삭제 수정을 같이 두면 안될듯. 사이트에 전체적으로
 
 # 질문 개수 확인
 @question_blp.route('/count')
