@@ -36,7 +36,7 @@ def create_app():
     from .views.images import image_blp
     from .views.questions import question_blp, questions_blp
     from .views.users import user_blp
-    #from app.stats_routes import stats_routes
+    from app.stats_routes import stats_routes
 
     api.register_blueprint(answer_blp)
     api.register_blueprint(choices_blp)
@@ -44,7 +44,7 @@ def create_app():
     api.register_blueprint(question_blp)
     api.register_blueprint(questions_blp)
     api.register_blueprint(user_blp)
-    #api.register_blueprint(stats_routes)
+    api.register_blueprint(stats_routes)
 
     @application.route('/')
     def home():
