@@ -33,7 +33,7 @@ class AnswerPost(MethodView):
         #한 사람의 아이디에는 여러 답변이 있으니께. 요구사항에도 아이디 1개에 답변 1개씩만 출력됨.
         for answer in data:
             user_id=answer.get("userId")
-            choice_id=answer.get("choicesId")
+            choice_id=answer.get("choiceId")
             #존재한지 안한지 확인
             if not user_id or choice_id:
                 return{"message":"Not Found user_id or choice_id"}
