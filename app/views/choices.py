@@ -26,9 +26,12 @@ def get(self):
 
 # 선택지 가져오기
 @choices_blp.route('/<int:question_id>')
-def get(self, question_id):
-        choices = Choices.query.get_or_404(question_id)
-        return jsonify([choice.to_dict() for choice in choices])
+class ChoiceResource(MethodView):
+    def get(self, question_id):
+            #선택지에 맞는 아이디 값을 설정해줘야하니 아이디에 맞는 값이 필요함 filter_by
+            #choices = Choices.query.get_or_404(question_id) <- 아이디 값에 맞는 모든 것을 불러올 수 없음.
+            choices = Choices.query.filter_by(question_id=question_id).all()
+            return jsonify([choice.to_dict() for choice in choices])
     
 
 
