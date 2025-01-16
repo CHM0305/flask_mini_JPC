@@ -35,7 +35,7 @@ class ChoiceResource(MethodView):
                             "choices":[
                                 {"id": choices.id, "content": "옵션 1", "is_active": choices.is_active},
                                 {"id": choices.id, "content": "옵션 2", "is_active": choices.is_active}
-                            ]
+                            ]for choices in Choices.query.filter_by(question_id=choices.question_id).all()
                         })
                 
     def delete(self, question_id):

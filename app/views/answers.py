@@ -36,12 +36,12 @@ class AnswerPost(MethodView):
             choice_id=answer.get("choicesId")
             #존재한지 안한지 확인
             if not user_id or choice_id:
-                return{"msg":"Not Found user_id or choice_id"}
+                return{"message":"Not Found user_id or choice_id"}
             
             #검사 후 데이터 존재시 답변 정보를 저장한다.
             new_answer=Answer(user_id=user_id,choice_id=choice_id)
             db.session.add(new_answer)
             db.session.commit()
             return {
-                    "msg":"User: 1's answers Success Create"
+                    "message":"User: 1's answers Success Create"
                     },201
