@@ -33,12 +33,13 @@ class ChoiceResource(MethodView):
             choices = Choices.query.filter_by(question_id=question_id).all()
             return jsonify([choice.to_dict() for choice in choices])
     
-    def delete(self, choice_id):
-        # 특정 Choice 삭제
-        choice = Choices.query.get_or_404(choice_id)
-        db.session.delete(choice)
+    def delete(self, question_id):
+        # 특정 질문에 해당하는 선택지 삭제
+        choices = Choices.query.filter_by(question_id=question_id).all()
+        for choice in choices:
+            db.session.delete(choice)
         db.session.commit()
-        return jsonify({'msg': 'Successfully deleted choice'}), 200
+        return jsonify({'msg': 'Successfully deleted choices'}), 200
 
 
 
